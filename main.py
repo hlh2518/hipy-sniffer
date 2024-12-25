@@ -394,7 +394,7 @@ async def getYspLive():
     for key, value in ysp_map.items():
         if '卫视' in key and live_tab2 not in texts:
             texts.append(live_tab2)
-        # texts.append(f'{key.upper()},http://192.168.1.100:2519/ysp/{value}')
+        # texts.append(f'{key.upper()},http://192.168.1.113:2519/ysp/{value}')
         if raw:
             play_url = f'https://www.yangshipin.cn/tv/home?pid={value}'
         else:
